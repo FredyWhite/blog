@@ -7,6 +7,8 @@ end
 
 gem "haml-rails", "~> 1.0"
 gem "devise", github: "plataformatec/devise"
+gem 'bootstrap-sass'
+gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'

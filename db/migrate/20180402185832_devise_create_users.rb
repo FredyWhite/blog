@@ -35,11 +35,11 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.1]
       t.string :username, null:false, default:""
       t.string :name
       t.string :last_name
-      t.text :bio
+      #t.text :bio
 
       #Social Networks
-      t.string :uid 
-      t.string :provider
+      #t.string :uid 
+      #t.string :provider
 
       t.timestamps null: false
     end
